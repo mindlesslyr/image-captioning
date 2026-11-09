@@ -1,0 +1,19 @@
+# Local Python environments
+.venv/
+venv/
+my_env*/
+__pycache__/
+*.py[cod]
+
+# Local configuration and credentials
+.aws/
+.codex/
+.agents/
+.env
+.env.*
+
+# Generated files and downloaded model weights
+.gradio/
+.cache/
+*.bin
+*.safetensors
